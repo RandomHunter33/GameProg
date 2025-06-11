@@ -14,6 +14,8 @@ public class MoveScript : MonoBehaviour
     public int HP = 5;
     public CameraScript CS;
 
+    public TMPro.TextMeshProUGUI Text;
+
     private void Update()
     {
         if (InputOn)
@@ -28,7 +30,8 @@ public class MoveScript : MonoBehaviour
             ThisNumber = Mathf.Min(1.5f, transform.position.y);
             transform.position = new Vector3(transform.position.x, ThisNumber, transform.position.z);
         }
-        
+
+        Text.text = "HP : " + HP;
 
         if (HP < 0)
         {

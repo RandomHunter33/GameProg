@@ -16,6 +16,11 @@ public class CameraScript : MonoBehaviour
     public int CurrC1;
     public int CurrC2;
 
+    public GameObject LevelEndCanvas;
+    public TMPro.TextMeshProUGUI EndText;
+    public TMPro.TextMeshProUGUI EndText2;
+    public TMPro.TextMeshProUGUI Text;
+
     private void Update()
     {
         Vector3 cameraPosition = Camera.transform.position;
@@ -29,10 +34,32 @@ public class CameraScript : MonoBehaviour
             level++; Debug.Log(level);
             newLevel();
         }
+
+        if (Lives == 0)
+        {
+            Destroy(Player);
+            EndText.text = "Score: Level" + level;
+            LevelEndCanvas.SetActive(true);
+        }
+
+        if (level == 11)
+        {
+            EndText2.text = "You Win!";
+            EndText.text = "Score: Level 10!";
+            LevelEndCanvas.SetActive(true);
+        }
+
+        Text.text = "Lives : " + Lives;
     }
 
     private void newLevel()
     {
+        if (level == 11)
+        {
+            CurrC1 = 2;
+            CurrC2 = 2;
+            return;
+        }
         if (level < 4)
         {
             ttlC1 += 1;

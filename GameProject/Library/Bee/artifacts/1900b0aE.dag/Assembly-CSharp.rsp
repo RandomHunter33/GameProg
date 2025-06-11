@@ -364,6 +364,7 @@
 "Assets/Scripts/Creep2.cs"
 "Assets/Scripts/CursurPointer.cs"
 "Assets/Scripts/MoveScript.cs"
+"Assets/Scripts/SceneManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
