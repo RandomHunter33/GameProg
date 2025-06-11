@@ -17,11 +17,23 @@ public class AttackObject : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void DamageCheck()
     {
-        if (other.gameObject.tag == "Creep")
+        Collider[] colide = Physics.OverlapBox(transform.position, new Vector3(0.5f, 0.5f, 0.5f), transform.rotation); 
+
+        foreach(Collider c in colide)
         {
-            other.GetComponent<Creep>().health --;
+            Debug.Log("hit");
+            if (c.gameObject.tag == "Creep")
+            {
+                Debug.Log("hit2");
+                c.GetComponent<Creep>().health--;
+            }
+            if (c.gameObject.tag == "Player")
+            {
+                Debug.Log("hit3");
+
+            }
         }
     }
 }
