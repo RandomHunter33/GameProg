@@ -17,6 +17,7 @@ public class CameraScript : MonoBehaviour
     public int CurrC2;
 
     public GameObject LevelEndCanvas;
+    public GameObject LevelEndCanvas2;
     public TMPro.TextMeshProUGUI EndText;
     public TMPro.TextMeshProUGUI EndText2;
     public TMPro.TextMeshProUGUI Text;
@@ -40,6 +41,7 @@ public class CameraScript : MonoBehaviour
             Destroy(Player);
             EndText.text = "Score: Level" + level;
             LevelEndCanvas.SetActive(true);
+            LevelEndCanvas.SetActive(false);
         }
 
         if (level == 11)
@@ -47,6 +49,7 @@ public class CameraScript : MonoBehaviour
             EndText2.text = "You Win!";
             EndText.text = "Score: Level 10!";
             LevelEndCanvas.SetActive(true);
+            LevelEndCanvas.SetActive(false);
         }
 
         Text.text = "Lives : " + Lives;

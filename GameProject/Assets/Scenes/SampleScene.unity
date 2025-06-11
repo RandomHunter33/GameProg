@@ -1544,6 +1544,7 @@ MonoBehaviour:
   CurrC1: 1
   CurrC2: 0
   LevelEndCanvas: {fileID: 441218224}
+  LevelEndCanvas2: {fileID: 954923839}
   EndText: {fileID: 792931490}
   EndText2: {fileID: 1452862219}
   Text: {fileID: 1408498374}

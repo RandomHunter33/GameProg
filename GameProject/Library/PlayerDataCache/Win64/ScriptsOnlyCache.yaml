@@ -128,29 +128,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1604}
     - Class: 114
-      Script: {instanceID: 2230}
+      Script: {instanceID: 2256}
     - Class: 114
-      Script: {instanceID: 2710}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2950}
     - Class: 114
-      Script: {instanceID: 3260}
+      Script: {instanceID: 3286}
     - Class: 114
-      Script: {instanceID: 4372}
+      Script: {instanceID: 3516}
     - Class: 114
-      Script: {instanceID: 4656}
+      Script: {instanceID: 4400}
     - Class: 114
-      Script: {instanceID: 5426}
+      Script: {instanceID: 4684}
     - Class: 114
-      Script: {instanceID: 6040}
+      Script: {instanceID: 5454}
     - Class: 114
-      Script: {instanceID: 6216}
+      Script: {instanceID: 6068}
     - Class: 114
-      Script: {instanceID: 6580}
+      Script: {instanceID: 6244}
     - Class: 114
-      Script: {instanceID: 25156}
+      Script: {instanceID: 6608}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -203,43 +203,43 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1604}
     - Class: 114
-      Script: {instanceID: 1582}
+      Script: {instanceID: 1608}
     - Class: 114
-      Script: {instanceID: 1750}
+      Script: {instanceID: 1776}
     - Class: 114
-      Script: {instanceID: 1910}
+      Script: {instanceID: 1936}
     - Class: 114
-      Script: {instanceID: 2132}
+      Script: {instanceID: 2158}
     - Class: 114
-      Script: {instanceID: 2710}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2950}
     - Class: 114
-      Script: {instanceID: 2952}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 3260}
+      Script: {instanceID: 3286}
     - Class: 114
-      Script: {instanceID: 3300}
+      Script: {instanceID: 3326}
     - Class: 114
-      Script: {instanceID: 3930}
+      Script: {instanceID: 3516}
     - Class: 114
-      Script: {instanceID: 4100}
+      Script: {instanceID: 3958}
     - Class: 114
-      Script: {instanceID: 5426}
+      Script: {instanceID: 4128}
     - Class: 114
-      Script: {instanceID: 6026}
+      Script: {instanceID: 5454}
     - Class: 114
-      Script: {instanceID: 6040}
+      Script: {instanceID: 6054}
     - Class: 114
-      Script: {instanceID: 6216}
+      Script: {instanceID: 6068}
     - Class: 114
-      Script: {instanceID: 6580}
+      Script: {instanceID: 6244}
     - Class: 114
-      Script: {instanceID: 8068}
+      Script: {instanceID: 6608}
     - Class: 114
-      Script: {instanceID: 25156}
+      Script: {instanceID: 8096}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -349,7 +349,7 @@ ScriptsOnlyBuild:
     className: Creep
   - hash:
       serializedVersion: 2
-      Hash: cbea975d6f7aef26422159617b7974df
+      Hash: 70906cb9c9baa44cd3330037148313e5
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CameraScript
@@ -587,6 +587,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1a0ccf92db542e185d6f9b61a884bc9e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LevelEnd
   - hash:
       serializedVersion: 2
       Hash: 7bdff9e91edfd9600f92a185def7e34a
@@ -1319,12 +1325,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 1a0ccf92db542e185d6f9b61a884bc9e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: LevelEnd
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

@@ -58,6 +58,17 @@
                 },
                 {
                     "name": "",
+                    "id": "baa6affe-669b-466c-84d6-f9fe8ac2fe11",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "skill1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "3a2085c6-dca9-4e6d-bafb-73b41d992a37",
                     "path": "<Keyboard>/2",
                     "interactions": "",
