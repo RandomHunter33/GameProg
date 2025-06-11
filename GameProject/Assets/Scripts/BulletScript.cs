@@ -9,7 +9,12 @@ public class BulletScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Creep")
         {
-            other.GetComponent<Creep>().health--;
+            other.GetComponent<Creep>().health--; 
+            Destroy(this.gameObject);
+        }
+        if (other.gameObject.tag == "Creep2")
+        {
+            other.GetComponent<Creep2>().health--;
             Destroy(this.gameObject);
         }
     }

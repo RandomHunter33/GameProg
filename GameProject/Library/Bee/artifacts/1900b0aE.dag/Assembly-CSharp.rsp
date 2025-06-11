@@ -356,9 +356,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AttackObject.cs"
+"Assets/Scripts/Bomb.cs"
+"Assets/Scripts/BulletEnemy.cs"
 "Assets/Scripts/BulletScript.cs"
 "Assets/Scripts/CameraScript.cs"
 "Assets/Scripts/Creep.cs"
+"Assets/Scripts/Creep2.cs"
 "Assets/Scripts/CursurPointer.cs"
 "Assets/Scripts/MoveScript.cs"
 -langversion:9.0

@@ -6,45 +6,27 @@
             "id": "bc14a841-25cc-4d48-a9a5-8205a758f76d",
             "actions": [
                 {
-                    "name": "w",
-                    "type": "Button",
-                    "id": "6b7a83f4-f35f-44b0-b1fc-0c8a4bb15324",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "a",
-                    "type": "Button",
-                    "id": "9dc05352-4a52-49b1-ae0b-59fd9bdab2ef",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "s",
-                    "type": "Button",
-                    "id": "ed367b86-c360-498f-b9b4-cb29cbf8506e",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "d",
-                    "type": "Button",
-                    "id": "45e8e514-a345-47e3-ba7f-715adfaf64d2",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "BasicAttack",
                     "type": "Button",
                     "id": "89e1dd82-c285-4a41-b872-639b882f3ce1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "skill1",
+                    "type": "Button",
+                    "id": "26eaf1db-36ad-452d-b18d-83d2fbaff6fe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "skill2",
+                    "type": "Button",
+                    "id": "ab7bc19d-9a92-460c-a5d8-8626544f6210",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -54,56 +36,34 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "881b6700-0872-430c-bf22-a6eaeb89a3ff",
-                    "path": "<Keyboard>/w",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "w",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ce39915a-cd8f-444b-b7c3-cff9eaf69b2e",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "a",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "eede8d97-827d-4402-a85b-e6d6c42d585d",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "s",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "6a6e2e18-7b00-43f0-9298-c6a686cbb92b",
-                    "path": "<Keyboard>/d",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "d",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "fbd55abe-f0af-42b9-86b9-04db58863141",
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "BasicAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a19cef8-e915-4a2c-bc64-0f472e39f079",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "skill1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3a2085c6-dca9-4e6d-bafb-73b41d992a37",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "skill2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
